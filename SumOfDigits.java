@@ -11,9 +11,9 @@ public class SumOfDigits {
 
         int temp = num;
 
-      while(temp!=0){
+        while(temp!=0){
           rem = temp%10;
-         sum = sum+rem;
+          sum = sum+rem;
           temp = temp/10;
 
       }
