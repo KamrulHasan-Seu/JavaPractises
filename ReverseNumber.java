@@ -12,7 +12,7 @@ public class ReverseNumber {
         while (temp!=0){
             rem = temp%10;
             sum = sum*10+rem;
-            temp = num/10;
+            temp = temp/10;
         }
         System.out.println("The Reverse num is: "+sum);
     }
