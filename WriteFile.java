@@ -11,50 +11,7 @@ public class WriteFile {
 
          Formatter format = new Formatter("C:/Users/user/IdeaProjects/FileDemo/student.txt");
          format.format("%s %s\n","101","Kamrul");//to make txt file and written in that file
-         format.format("%s %s\n" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "" +
-                 "","102","Shamim");
+         format.format("%s %s\n" ,"102","Shamim");
          System.out.println("Written Successfully");
 
          format.close();
